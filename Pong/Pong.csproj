@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyTitle>Pong Multiplayer Game</AssemblyTitle>
+    <AssemblyDescription>A classic Pong game with multiplayer networking support</AssemblyDescription>
+    <AssemblyCompany>Game Development Studio</AssemblyCompany>
+    <AssemblyProduct>Pong Multiplayer</AssemblyProduct>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<StartupObject>Pong.Program</StartupObject> <!-- O ClientApplication -->
+  </PropertyGroup>
+
+</Project>
